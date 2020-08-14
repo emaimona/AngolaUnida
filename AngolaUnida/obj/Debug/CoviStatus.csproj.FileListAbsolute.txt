@@ -1,0 +1,17 @@
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\CoviStatus.csprojResolveAssemblyReference.cache
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\Splash.frmSplash.resources
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\CoviStatus.csproj.GenerateResource.Cache
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\Splash.frmWhom.resources
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\Splash.frmCadastro.resources
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\Splash.frmLogin.resources
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\Splash.frmMain.resources
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\bin\Debug\AngolaUnida.exe.config
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\bin\Debug\AngolaUnida.exe
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\bin\Debug\AngolaUnida.pdb
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\AngolaUnida.Properties.Resources.resources
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\AngolaUnida.exe
+C:\Users\Emanuel Nz. Maimona\Desktop\CoviStatus\Splash\Splash\obj\Debug\AngolaUnida.pdb
+C:\Users\Emanuel Nz. Maimona\Desktop\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\AngolaUnida.exe.config
+C:\Users\Emanuel Nz. Maimona\Desktop\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.exe
+C:\Users\Emanuel Nz. Maimona\Desktop\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.pdb
