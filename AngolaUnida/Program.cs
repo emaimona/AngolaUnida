@@ -16,8 +16,8 @@ namespace AngolaUnida
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmMain("ema","donoema",2));
-            //Application.Run(new frmSplash());
+           // Application.Run(new frmMain("ema","donoema",2));
+            Application.Run(new frmSplash());
         }
     }
 }

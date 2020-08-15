@@ -21,6 +21,8 @@ namespace AngolaUnida
         char id='d';
         OpenFileDialog arquivo = new OpenFileDialog();
 
+        frmAnuncio frm = new frmAnuncio();
+
         frmFoto fot = new frmFoto();
 
         public Label nome, txtContent;
@@ -176,17 +178,18 @@ namespace AngolaUnida
 
 
         public frmMain(string login, string senha, int who)
-        {
+        {   
+            frm.Show();
+
             this.who=who;
             this.login = login;
             this.senha=senha;
+                       
             InitializeComponent();
         }
 
         private void frmMain_Load(object sender, EventArgs e)
         {
-            frmAnuncio frm = new frmAnuncio();
-            frm.Show();
             panel1.Visible = false;
             pnlChatContainer.Location = new Point(Size.Width-pnlChatContainer.Width, 0);
             pnlChatContainer.BringToFront();
@@ -216,7 +219,6 @@ namespace AngolaUnida
             //Para ter scroll
             Label scrollActive = new Label();
             scrollActive.Location = new Point(0, 526);
-            scrollActive.Visible = true;
 
             Label txtTop = new Label();
             txtTop.Dock = DockStyle.Top;
@@ -313,14 +315,14 @@ namespace AngolaUnida
             Panel pnlContentSms = new Panel();
             Panel pnlGeneralContent = new Panel();
 
-            pnlGeneralContent.BackColor = Color.White;
+            pnlGeneralContent.BackColor = Color.FromArgb(20, Color.Black);
 
             PictureBox picture = new PictureBox();
 
             picture.Size = new Size(57, 50);
             picture.BackgroundImageLayout = ImageLayout.Stretch;
-            picture.Margin = new System.Windows.Forms.Padding(0, 0, 40, 0);
-            picture.Location = new Point(3, 3);
+          //  picture.Margin = new System.Windows.Forms.Padding(0, 0, 40, 0);
+            picture.Location = new Point(0, 0);
              if (fotoPessoa == null)
                 {
                     picture.BackgroundImage = AngolaUnida.Properties.Resources.photo;
@@ -336,24 +338,72 @@ namespace AngolaUnida
             pnlContentSms.BackColor = System.Drawing.Color.FromArgb(200, Color.Black);
             pnlContentSms.Size = new Size(635, 10);
             pnlContentSms.AutoSize = true;
-            pnlContentSms.Location = new Point(74, 5);
+            pnlContentSms.Location = new Point(57, 0);
             pnlContentSms.Visible = true;
 
             pnlGeneralContent.Size = new Size(498, 10);
             pnlGeneralContent.AutoSize = true;
-            pnlGeneralContent.Location = new Point(98,py);
+            pnlGeneralContent.Location = new Point(128,py);
             pnlGeneralContent.Visible = true;
+
+            PictureBox icon1 = new PictureBox();
+            icon1.BackgroundImage = Properties.Resources.Handshake_96px;
+            icon1.BackgroundImageLayout = ImageLayout.Stretch;
+            icon1.Size = new Size(27, 26);
+            icon1.Location = new Point(645, 0);
+            icon1.BackColor = Color.FromArgb(200, Color.Black);
+            icon1.MouseHover += new EventHandler((object sender, EventArgs e) =>
+            {
+                icon1.BackgroundImage = Properties.Resources.Handshake_1;
+            });
+            icon1.MouseLeave += new EventHandler((object sender, EventArgs e) =>
+            {
+                icon1.BackgroundImage = Properties.Resources.Handshake_96px;
+            });
+            icon1.Click += new EventHandler((object sender, EventArgs e) =>
+            {
+                if(owner != (mainUser.Nome+mainUser.Sobrenome)){
+                pnlSectionRigth.Visible = true;
+                perfil(owner);
+                lerMensagem();
+
+                }
+            });
+
+            bool state = false;
+
+            PictureBox icon2 = new PictureBox();
+            icon2.BackgroundImage = Properties.Resources.heart_1;
+            icon2.BackgroundImageLayout = ImageLayout.Stretch;
+            icon2.Size = new Size(25, 26);
+            icon2.Location = new Point(610, 0);
+            icon2.BackColor = Color.FromArgb(200, Color.Black);
+            icon2.MouseHover += new EventHandler((object sender, EventArgs e) =>
+            {
+                icon2.BackgroundImage = Properties.Resources.heart_2;
+            });
+            icon2.MouseLeave += new EventHandler((object sender, EventArgs e) =>
+            {
+                if (!state)
+                {
+                    icon2.BackgroundImage = Properties.Resources.heart_1;
+                }
+            });
+            icon2.Click += new EventHandler((object sender, EventArgs e) =>
+            {
+                state = true;
+                icon2.BackgroundImage = Properties.Resources.heart_2;
+            });
 
             Label txtTop = new Label();
             txtTop.Dock = DockStyle.Top;
             txtTop.AutoSize = false;
             txtTop.BackColor = Color.FromArgb(10, Color.LightGray);
-            txtTop.TextAlign = ContentAlignment.MiddleRight;
+            txtTop.TextAlign = ContentAlignment.MiddleCenter;
             txtTop.Text = "~"+owner;
             txtTop.Size = new Size(txtTop.Width, 25);
-            txtTop.Padding = new System.Windows.Forms.Padding(5);
+            txtTop.Padding = new System.Windows.Forms.Padding(0,5,0,5);
             txtTop.ForeColor = Color.White;
-
 
             Label txtBottom = new Label();
             txtBottom.Dock = DockStyle.Bottom;
@@ -377,6 +427,7 @@ namespace AngolaUnida
             txtContent.TextAlign = ContentAlignment.TopLeft;
             txtContent.Padding = new System.Windows.Forms.Padding(5);
             txtContent.UseCompatibleTextRendering = true;
+            
 
             txtContent.Text = caption;
             PictureBox picSms = new PictureBox();           
@@ -413,8 +464,13 @@ namespace AngolaUnida
 
             con1[0] = picture;
             con1[1] = pnlContentSms;
-            // con[2] = txtBottom;
+            con1[2] = icon1;
+            con1[3] = icon2;
+
             pnlGeneralContent.Controls.AddRange(con1);
+
+            icon1.BringToFront();
+            icon2.BringToFront();
 
             pnlPublicacao.Controls.Add(pnlGeneralContent);
 
@@ -703,7 +759,7 @@ namespace AngolaUnida
                             modeloPessoa emissor = new modeloPessoa();
                             emissor = banco.obterDadosBLL(login, senha);
                                                                                 
-                           banco.enviarMensagem_P(txtTextoP.Text,emissor.Idpessoa, img);
+                           banco.enviarMensagem_P(txtTextoP.Text,mainUser.Idpessoa, img);
                             lerPublicacao();
                        /* }
                         else if (idSms == 'G')
@@ -725,7 +781,7 @@ namespace AngolaUnida
                         }*/
 
                         txtTextoP.Text = "";
-                        btnInserirImg.BackgroundImage = Properties.Resources.Upload_Photos_256;
+                        btnInserirImg.BackgroundImage = Properties.Resources.insta2;
 
                     }
                     catch (Exception ex)
@@ -983,7 +1039,6 @@ namespace AngolaUnida
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
         }
 
         private void lblHome_MouseHover(object sender, EventArgs e)

@@ -37,3 +37,42 @@ C:\Users\Emanuel Nz. Maimona\Desktop\AngolaUnida\AngolaUnida\AngolaUnida\bin\Deb
 C:\Users\Emanuel Nz. Maimona\Desktop\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
 C:\Users\Emanuel Nz. Maimona\Desktop\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmPerfil.resources
 C:\Users\Emanuel Nz. Maimona\Desktop\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmAnuncio.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\AngolaUnida.exe.config
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.exe
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.pdb
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\AngolaUnida.exe
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\AngolaUnida.pdb
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForm.BunifuShadowPanel.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuTextbox.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\bin\Debug\Bunifu.UI.WinForms.ToggleSwitch.xml
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.csprojResolveAssemblyReference.cache
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmAnuncio.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmCadastro.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmFoto.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmInfo.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmPerfil.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmQuestion.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmLogin.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmMain.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmText.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmWhom.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmSplash.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.Properties.Resources.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.csproj.GenerateResource.Cache

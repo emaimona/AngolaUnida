@@ -118,16 +118,40 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="32-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\32-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Upload_Photos-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Upload_Photos-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Handshake_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Handshake_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="photo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\photo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="32-2561" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\32-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="32-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\32-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Handshake_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Handshake_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Upload_Photos-256" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Upload_Photos-256.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="heart-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\heart-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="insta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\insta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\heart-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heart-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\heart-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Handshake_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Handshake_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Handshake_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Handshake_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

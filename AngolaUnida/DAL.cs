@@ -90,7 +90,7 @@ namespace AngolaUnida
         {
             try
             {
-                Mensagem(corpo, idPessoa, arquivo);
+                Mensagem_P(corpo, idPessoa, arquivo);
                // enviarMensagem_P(idPessoa);
 
             }
@@ -185,12 +185,12 @@ namespace AngolaUnida
             }
         }
 
-        public void Mensagem(string corpo, int idpessoa, byte[] arquivo)
+        public void Mensagem_P(string corpo, int idpessoa, byte[] arquivo)
         {
             try
             {
                 con = new MySqlConnection(strcon);
-                sql = new MySqlCommand("Insert into mensagem (`corpo`, `idpessoa`, `data_envio`, `hora_envio`, `foto`) values('" + corpo + "','"+idpessoa +"',current_date(),current_time(),@foto)", con);
+                sql = new MySqlCommand("Insert into publicacao (`corpo`, `idpessoa`, `data_envio`, `hora_envio`, `foto`) values('" + corpo + "','"+idpessoa +"',current_date(),current_time(),@foto)", con);
                 con.Open();
                 sql.Parameters.AddWithValue("@foto", arquivo);
                 sql.ExecuteNonQuery();
@@ -244,7 +244,7 @@ namespace AngolaUnida
                 con.Open();
                 sql.ExecuteNonQuery();
 
-                MessageBox.Show("Cadastro Efetuado com Sucesso!\nSeja Benvindo ao AngolaUnida Sr.(a)" + model.Sobrenome + "!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Cadastro Efetuado com Sucesso!\nSeja Benvindo ao AngolaUnida Sr.(a) " + model.Sobrenome + "!", "Informação", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
                 Form.ActiveForm.Visible = false;
                 frmLogin frml = new frmLogin(model.Who);

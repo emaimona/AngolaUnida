@@ -57,6 +57,7 @@
             this.bunifuSeparator3 = new Bunifu.Framework.UI.BunifuSeparator();
             this.label5 = new System.Windows.Forms.Label();
             this.pnlSectionMiddle = new System.Windows.Forms.Panel();
+            this.pnlPublicacao = new System.Windows.Forms.Panel();
             this.pnlChatContainer = new System.Windows.Forms.Panel();
             this.bunifuImageButton1 = new Bunifu.Framework.UI.BunifuImageButton();
             this.pnlChat = new System.Windows.Forms.Panel();
@@ -69,7 +70,6 @@
             this.btnEnviarP = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btnInserirImg = new System.Windows.Forms.PictureBox();
             this.txtTextoP = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox();
-            this.pnlPublicacao = new System.Windows.Forms.Panel();
             this.shapeContainer3 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.btnTopo = new Microsoft.VisualBasic.PowerPacks.OvalShape();
             this.pnlHeader = new System.Windows.Forms.Panel();
@@ -86,6 +86,13 @@
             this.bunifuToolTip1 = new Bunifu.UI.WinForms.BunifuToolTip(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.terminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.desenvolvedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aplicativoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.pnlSectionRigth.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -101,6 +108,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnInserirImg)).BeginInit();
             this.pnlHeader.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -143,12 +151,12 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.BackgroundImage = global::AngolaUnida.Properties.Resources.Upload_Photos_256;
+            this.pictureBox6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox6.BackgroundImage")));
             this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuTransition1.SetDecoration(this.pictureBox6, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox6.Location = new System.Drawing.Point(19, 638);
+            this.pictureBox6.Location = new System.Drawing.Point(23, 639);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(38, 34);
+            this.pictureBox6.Size = new System.Drawing.Size(32, 34);
             this.pictureBox6.TabIndex = 107;
             this.pictureBox6.TabStop = false;
             this.bunifuToolTip1.SetToolTip(this.pictureBox6, "");
@@ -374,9 +382,9 @@
             // pnlSectionMiddle
             // 
             this.pnlSectionMiddle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pnlSectionMiddle.Controls.Add(this.pnlPublicacao);
             this.pnlSectionMiddle.Controls.Add(this.pnlChatContainer);
             this.pnlSectionMiddle.Controls.Add(this.panel4);
-            this.pnlSectionMiddle.Controls.Add(this.pnlPublicacao);
             this.pnlSectionMiddle.Controls.Add(this.shapeContainer3);
             this.bunifuTransition1.SetDecoration(this.pnlSectionMiddle, BunifuAnimatorNS.DecorationType.None);
             this.pnlSectionMiddle.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -388,6 +396,24 @@
             this.bunifuToolTip1.SetToolTipIcon(this.pnlSectionMiddle, null);
             this.bunifuToolTip1.SetToolTipTitle(this.pnlSectionMiddle, "");
             this.pnlSectionMiddle.Scroll += new System.Windows.Forms.ScrollEventHandler(this.pnlSectionMiddle_Scroll);
+            // 
+            // pnlPublicacao
+            // 
+            this.pnlPublicacao.AllowDrop = true;
+            this.pnlPublicacao.AutoScroll = true;
+            this.pnlPublicacao.BackColor = System.Drawing.Color.Transparent;
+            this.pnlPublicacao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bunifuTransition1.SetDecoration(this.pnlPublicacao, BunifuAnimatorNS.DecorationType.None);
+            this.pnlPublicacao.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlPublicacao.Location = new System.Drawing.Point(0, 99);
+            this.pnlPublicacao.Name = "pnlPublicacao";
+            this.pnlPublicacao.Size = new System.Drawing.Size(953, 598);
+            this.pnlPublicacao.TabIndex = 100;
+            this.bunifuToolTip1.SetToolTip(this.pnlPublicacao, "");
+            this.bunifuToolTip1.SetToolTipIcon(this.pnlPublicacao, null);
+            this.bunifuToolTip1.SetToolTipTitle(this.pnlPublicacao, "");
+            this.pnlPublicacao.Scroll += new System.Windows.Forms.ScrollEventHandler(this.pnlsms_Scroll);
+            this.pnlPublicacao.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlsms_Paint);
             // 
             // pnlChatContainer
             // 
@@ -617,7 +643,7 @@
             // btnInserirImg
             // 
             this.btnInserirImg.BackColor = System.Drawing.Color.Transparent;
-            this.btnInserirImg.BackgroundImage = global::AngolaUnida.Properties.Resources.Upload_Photos_256;
+            this.btnInserirImg.BackgroundImage = global::AngolaUnida.Properties.Resources.insta2;
             this.btnInserirImg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuTransition1.SetDecoration(this.btnInserirImg, BunifuAnimatorNS.DecorationType.None);
             this.btnInserirImg.Location = new System.Drawing.Point(193, 12);
@@ -651,6 +677,7 @@
             this.txtTextoP.DefaultFont = new System.Drawing.Font("Segoe UI Semibold", 9.75F);
             this.txtTextoP.DefaultText = "";
             this.txtTextoP.FillColor = System.Drawing.Color.DarkSlateGray;
+            this.txtTextoP.ForeColor = System.Drawing.Color.White;
             this.txtTextoP.HideSelection = true;
             this.txtTextoP.IconLeft = null;
             this.txtTextoP.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -682,7 +709,7 @@
             this.txtTextoP.OnHoverState = stateProperties23;
             stateProperties24.BorderColor = System.Drawing.Color.Silver;
             stateProperties24.FillColor = System.Drawing.Color.DarkSlateGray;
-            stateProperties24.ForeColor = System.Drawing.Color.Empty;
+            stateProperties24.ForeColor = System.Drawing.Color.White;
             stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtTextoP.OnIdleState = stateProperties24;
             this.txtTextoP.PasswordChar = '\0';
@@ -707,24 +734,6 @@
             this.bunifuToolTip1.SetToolTipTitle(this.txtTextoP, "");
             this.txtTextoP.UseSystemPasswordChar = false;
             this.txtTextoP.WordWrap = true;
-            // 
-            // pnlPublicacao
-            // 
-            this.pnlPublicacao.AllowDrop = true;
-            this.pnlPublicacao.AutoScroll = true;
-            this.pnlPublicacao.BackColor = System.Drawing.Color.Transparent;
-            this.pnlPublicacao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.bunifuTransition1.SetDecoration(this.pnlPublicacao, BunifuAnimatorNS.DecorationType.None);
-            this.pnlPublicacao.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pnlPublicacao.Location = new System.Drawing.Point(0, 99);
-            this.pnlPublicacao.Name = "pnlPublicacao";
-            this.pnlPublicacao.Size = new System.Drawing.Size(953, 598);
-            this.pnlPublicacao.TabIndex = 100;
-            this.bunifuToolTip1.SetToolTip(this.pnlPublicacao, "");
-            this.bunifuToolTip1.SetToolTipIcon(this.pnlPublicacao, null);
-            this.bunifuToolTip1.SetToolTipTitle(this.pnlPublicacao, "");
-            this.pnlPublicacao.Scroll += new System.Windows.Forms.ScrollEventHandler(this.pnlsms_Scroll);
-            this.pnlPublicacao.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlsms_Paint);
             // 
             // shapeContainer3
             // 
@@ -758,6 +767,7 @@
             // pnlHeader
             // 
             this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.pnlHeader.Controls.Add(this.menuStrip1);
             this.pnlHeader.Controls.Add(this.label4);
             this.pnlHeader.Controls.Add(this.label7);
             this.pnlHeader.Controls.Add(this.lblChat);
@@ -1003,6 +1013,77 @@
             // 
             this.timer1.Interval = 1000;
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.bunifuTransition1.SetDecoration(this.menuStrip1, BunifuAnimatorNS.DecorationType.None);
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.perfilToolStripMenuItem,
+            this.sobreToolStripMenuItem,
+            this.terminarToolStripMenuItem});
+            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
+            this.menuStrip1.Location = new System.Drawing.Point(481, 16);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(150, 100);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            this.bunifuToolTip1.SetToolTip(this.menuStrip1, "");
+            this.bunifuToolTip1.SetToolTipIcon(this.menuStrip1, null);
+            this.bunifuToolTip1.SetToolTipTitle(this.menuStrip1, "");
+            this.menuStrip1.Visible = false;
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.sobreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.desenvolvedorToolStripMenuItem,
+            this.aplicativoToolStripMenuItem,
+            this.ajudaToolStripMenuItem});
+            this.sobreToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            // 
+            // terminarToolStripMenuItem
+            // 
+            this.terminarToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.terminarToolStripMenuItem.Name = "terminarToolStripMenuItem";
+            this.terminarToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
+            this.terminarToolStripMenuItem.Text = "Terminar Sessão";
+            // 
+            // perfilToolStripMenuItem
+            // 
+            this.perfilToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
+            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
+            this.perfilToolStripMenuItem.Text = "Perfil";
+            // 
+            // desenvolvedorToolStripMenuItem
+            // 
+            this.desenvolvedorToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.desenvolvedorToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.desenvolvedorToolStripMenuItem.Name = "desenvolvedorToolStripMenuItem";
+            this.desenvolvedorToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.desenvolvedorToolStripMenuItem.Text = "Desenvolvedor";
+            // 
+            // aplicativoToolStripMenuItem
+            // 
+            this.aplicativoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.aplicativoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.aplicativoToolStripMenuItem.Name = "aplicativoToolStripMenuItem";
+            this.aplicativoToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.aplicativoToolStripMenuItem.Text = "Aplicativo";
+            // 
+            // ajudaToolStripMenuItem
+            // 
+            this.ajudaToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.ajudaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.ajudaToolStripMenuItem.Text = "Ajuda";
+            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
@@ -1014,6 +1095,7 @@
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1036,6 +1118,8 @@
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1085,5 +1169,12 @@
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox txtPesquisaUser;
         private System.Windows.Forms.Label lblChat;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem perfilToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sobreToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem desenvolvedorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aplicativoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ajudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem terminarToolStripMenuItem;
     }
 }
