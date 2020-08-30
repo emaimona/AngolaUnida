@@ -32,11 +32,11 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmInfo));
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.lblInfo = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
-            this.ovalShape1 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
+            this.ovalShape1 = new Microsoft.VisualBasic.PowerPacks.OvalShape();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +47,7 @@
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.lblInfo);
             this.panel1.Controls.Add(this.lblTitle);
             this.panel1.Controls.Add(this.bunifuThinButton21);
@@ -56,6 +57,33 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(311, 253);
             this.panel1.TabIndex = 0;
+            // 
+            // lblInfo
+            // 
+            this.lblInfo.BackColor = System.Drawing.Color.Transparent;
+            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.lblInfo.Location = new System.Drawing.Point(95, 70);
+            this.lblInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblInfo.Name = "lblInfo";
+            this.lblInfo.Size = new System.Drawing.Size(203, 111);
+            this.lblInfo.TabIndex = 104;
+            this.lblInfo.Text = "A senha introduzida está incorrecta. Porfavor verfique";
+            this.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.lblInfo.UseCompatibleTextRendering = true;
+            this.lblInfo.Click += new System.EventHandler(this.lblInfo_Click);
+            // 
+            // lblTitle
+            // 
+            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitle.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.ForeColor = System.Drawing.Color.Teal;
+            this.lblTitle.Location = new System.Drawing.Point(-1, 19);
+            this.lblTitle.Name = "lblTitle";
+            this.lblTitle.Size = new System.Drawing.Size(312, 23);
+            this.lblTitle.TabIndex = 105;
+            this.lblTitle.Text = "Acesso Negado";
+            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuThinButton21
             // 
@@ -83,30 +111,16 @@
             this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton21.Click += new System.EventHandler(this.bunifuThinButton21_Click);
             // 
-            // lblInfo
+            // shapeContainer1
             // 
-            this.lblInfo.BackColor = System.Drawing.Color.Transparent;
-            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInfo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.lblInfo.Location = new System.Drawing.Point(95, 70);
-            this.lblInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(185, 111);
-            this.lblInfo.TabIndex = 104;
-            this.lblInfo.Text = "A senha introduzida está incorrecta. Porfavor verfique";
-            this.lblInfo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // lblTitle
-            // 
-            this.lblTitle.BackColor = System.Drawing.Color.Transparent;
-            this.lblTitle.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitle.ForeColor = System.Drawing.Color.Teal;
-            this.lblTitle.Location = new System.Drawing.Point(-1, 19);
-            this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(312, 23);
-            this.lblTitle.TabIndex = 105;
-            this.lblTitle.Text = "Acesso Negado";
-            this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
+            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
+            this.shapeContainer1.Name = "shapeContainer1";
+            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
+            this.ovalShape1});
+            this.shapeContainer1.Size = new System.Drawing.Size(309, 251);
+            this.shapeContainer1.TabIndex = 106;
+            this.shapeContainer1.TabStop = false;
             // 
             // ovalShape1
             // 
@@ -117,17 +131,6 @@
             this.ovalShape1.Name = "ovalShape1";
             this.ovalShape1.Size = new System.Drawing.Size(50, 43);
             // 
-            // shapeContainer1
-            // 
-            this.shapeContainer1.Location = new System.Drawing.Point(0, 0);
-            this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
-            this.shapeContainer1.Name = "shapeContainer1";
-            this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-            this.ovalShape1});
-            this.shapeContainer1.Size = new System.Drawing.Size(311, 253);
-            this.shapeContainer1.TabIndex = 106;
-            this.shapeContainer1.TabStop = false;
-            // 
             // frmInfo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -135,8 +138,14 @@
             this.ClientSize = new System.Drawing.Size(311, 253);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.IsMdiContainer = true;
             this.Name = "frmInfo";
+            this.ShowIcon = false;
+            this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmInfo";
+            this.TopMost = true;
+            this.Load += new System.EventHandler(this.frmInfo_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

@@ -76,3 +76,5 @@ D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\
 D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmSplash.resources
 D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.Properties.Resources.resources
 D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.csproj.GenerateResource.Cache
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmQuestionair.resources
+D:\DOCUMENTOS\ALGORITMOS\GIT\Meus-Projectos\AngolaUnida\AngolaUnida\AngolaUnida\obj\Debug\AngolaUnida.frmPagina.resources

@@ -12,12 +12,26 @@ namespace AngolaUnida
 {
     public partial class frmInfo : Form
     {
-        public frmInfo()
+        string title, corpo;
+        public frmInfo(string title, string corpo)
         {
+            this.title = title;
+            this.corpo = corpo;
             InitializeComponent();
         }
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            Hide();
+        }
+
+        private void frmInfo_Load(object sender, EventArgs e)
+        {
+            lblInfo.Text = corpo;
+            lblTitle.Text = title;
+        }
+
+        private void lblInfo_Click(object sender, EventArgs e)
         {
 
         }

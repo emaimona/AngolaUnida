@@ -33,6 +33,7 @@
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.lblnome = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
             this.bunifuSeparator1 = new Bunifu.Framework.UI.BunifuSeparator();
             this.painelUm = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -70,7 +71,6 @@
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.foto = new Microsoft.VisualBasic.PowerPacks.OvalShape();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.painelUm.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -111,6 +111,18 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(823, 630);
             this.panel1.TabIndex = 14;
+            // 
+            // label2
+            // 
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold);
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(178, 98);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(459, 53);
+            this.label2.TabIndex = 74;
+            this.label2.Text = "Criar Conta";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // bunifuSeparator1
             // 
@@ -601,18 +613,6 @@
             this.foto.Name = "foto";
             this.foto.Size = new System.Drawing.Size(122, 109);
             this.foto.Click += new System.EventHandler(this.fotoUser_Click);
-            // 
-            // label2
-            // 
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold);
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(178, 98);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(459, 53);
-            this.label2.TabIndex = 74;
-            this.label2.Text = "Criar Conta";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmCadastro
             // 

@@ -29,20 +29,20 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
-            BunifuAnimatorNS.Animation animation2 = new BunifuAnimatorNS.Animation();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox.StateProperties();
+            BunifuAnimatorNS.Animation animation1 = new BunifuAnimatorNS.Animation();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlSectionRigth = new System.Windows.Forms.Panel();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -73,6 +73,13 @@
             this.shapeContainer3 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.btnTopo = new Microsoft.VisualBasic.PowerPacks.OvalShape();
             this.pnlHeader = new System.Windows.Forms.Panel();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.desenvolvedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aplicativoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.terminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.lblChat = new System.Windows.Forms.Label();
@@ -86,13 +93,6 @@
             this.bunifuToolTip1 = new Bunifu.UI.WinForms.BunifuToolTip(this.components);
             this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.terminarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.desenvolvedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aplicativoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.pnlSectionRigth.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -107,8 +107,8 @@
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnInserirImg)).BeginInit();
             this.pnlHeader.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -123,7 +123,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1362, 741);
+            this.panel1.Size = new System.Drawing.Size(1354, 733);
             this.panel1.TabIndex = 0;
             this.bunifuToolTip1.SetToolTip(this.panel1, "");
             this.bunifuToolTip1.SetToolTipIcon(this.panel1, null);
@@ -140,9 +140,9 @@
             this.pnlSectionRigth.Controls.Add(this.panel3);
             this.bunifuTransition1.SetDecoration(this.pnlSectionRigth, BunifuAnimatorNS.DecorationType.None);
             this.pnlSectionRigth.Dock = System.Windows.Forms.DockStyle.Right;
-            this.pnlSectionRigth.Location = new System.Drawing.Point(953, 52);
+            this.pnlSectionRigth.Location = new System.Drawing.Point(945, 52);
             this.pnlSectionRigth.Name = "pnlSectionRigth";
-            this.pnlSectionRigth.Size = new System.Drawing.Size(409, 666);
+            this.pnlSectionRigth.Size = new System.Drawing.Size(409, 658);
             this.pnlSectionRigth.TabIndex = 100;
             this.bunifuToolTip1.SetToolTip(this.pnlSectionRigth, "");
             this.bunifuToolTip1.SetToolTipIcon(this.pnlSectionRigth, null);
@@ -229,26 +229,26 @@
             this.txtTextoSms.Modified = false;
             this.txtTextoSms.Multiline = false;
             this.txtTextoSms.Name = "txtTextoSms";
-            stateProperties13.BorderColor = System.Drawing.Color.Teal;
-            stateProperties13.FillColor = System.Drawing.Color.Empty;
-            stateProperties13.ForeColor = System.Drawing.Color.Empty;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtTextoSms.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            stateProperties14.FillColor = System.Drawing.Color.White;
-            stateProperties14.ForeColor = System.Drawing.Color.Empty;
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txtTextoSms.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties15.FillColor = System.Drawing.Color.Empty;
-            stateProperties15.ForeColor = System.Drawing.Color.Empty;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtTextoSms.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Silver;
-            stateProperties16.FillColor = System.Drawing.Color.White;
-            stateProperties16.ForeColor = System.Drawing.Color.Empty;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtTextoSms.OnIdleState = stateProperties16;
+            stateProperties1.BorderColor = System.Drawing.Color.Teal;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtTextoSms.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
+            stateProperties2.FillColor = System.Drawing.Color.White;
+            stateProperties2.ForeColor = System.Drawing.Color.Empty;
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txtTextoSms.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtTextoSms.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtTextoSms.OnIdleState = stateProperties4;
             this.txtTextoSms.PasswordChar = '\0';
             this.txtTextoSms.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtTextoSms.PlaceholderText = "    Escreva aqui a sua mensagem...";
@@ -337,9 +337,9 @@
             this.pnlFooter.Controls.Add(this.label5);
             this.bunifuTransition1.SetDecoration(this.pnlFooter, BunifuAnimatorNS.DecorationType.None);
             this.pnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlFooter.Location = new System.Drawing.Point(0, 718);
+            this.pnlFooter.Location = new System.Drawing.Point(0, 710);
             this.pnlFooter.Name = "pnlFooter";
-            this.pnlFooter.Size = new System.Drawing.Size(1362, 23);
+            this.pnlFooter.Size = new System.Drawing.Size(1354, 23);
             this.pnlFooter.TabIndex = 104;
             this.bunifuToolTip1.SetToolTip(this.pnlFooter, "");
             this.bunifuToolTip1.SetToolTipIcon(this.pnlFooter, null);
@@ -355,7 +355,7 @@
             this.bunifuSeparator3.Location = new System.Drawing.Point(0, 0);
             this.bunifuSeparator3.Margin = new System.Windows.Forms.Padding(8);
             this.bunifuSeparator3.Name = "bunifuSeparator3";
-            this.bunifuSeparator3.Size = new System.Drawing.Size(1362, 1);
+            this.bunifuSeparator3.Size = new System.Drawing.Size(1354, 1);
             this.bunifuSeparator3.TabIndex = 102;
             this.bunifuToolTip1.SetToolTip(this.bunifuSeparator3, "");
             this.bunifuToolTip1.SetToolTipIcon(this.bunifuSeparator3, null);
@@ -371,7 +371,7 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(0, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(1362, 23);
+            this.label5.Size = new System.Drawing.Size(1354, 23);
             this.label5.TabIndex = 0;
             this.label5.Text = "#Unidos para fazer a Diferença";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -390,7 +390,7 @@
             this.pnlSectionMiddle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlSectionMiddle.Location = new System.Drawing.Point(0, 52);
             this.pnlSectionMiddle.Name = "pnlSectionMiddle";
-            this.pnlSectionMiddle.Size = new System.Drawing.Size(1362, 689);
+            this.pnlSectionMiddle.Size = new System.Drawing.Size(1354, 681);
             this.pnlSectionMiddle.TabIndex = 103;
             this.bunifuToolTip1.SetToolTip(this.pnlSectionMiddle, "");
             this.bunifuToolTip1.SetToolTipIcon(this.pnlSectionMiddle, null);
@@ -552,26 +552,26 @@
             this.txtPesquisaUser.Modified = false;
             this.txtPesquisaUser.Multiline = false;
             this.txtPesquisaUser.Name = "txtPesquisaUser";
-            stateProperties17.BorderColor = System.Drawing.Color.Teal;
-            stateProperties17.FillColor = System.Drawing.Color.Empty;
-            stateProperties17.ForeColor = System.Drawing.Color.Empty;
-            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtPesquisaUser.OnActiveState = stateProperties17;
-            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            stateProperties18.FillColor = System.Drawing.Color.White;
-            stateProperties18.ForeColor = System.Drawing.Color.Empty;
-            stateProperties18.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txtPesquisaUser.OnDisabledState = stateProperties18;
-            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties19.FillColor = System.Drawing.Color.Empty;
-            stateProperties19.ForeColor = System.Drawing.Color.Empty;
-            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtPesquisaUser.OnHoverState = stateProperties19;
-            stateProperties20.BorderColor = System.Drawing.Color.Silver;
-            stateProperties20.FillColor = System.Drawing.SystemColors.ButtonHighlight;
-            stateProperties20.ForeColor = System.Drawing.Color.Empty;
-            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtPesquisaUser.OnIdleState = stateProperties20;
+            stateProperties5.BorderColor = System.Drawing.Color.Teal;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtPesquisaUser.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
+            stateProperties6.FillColor = System.Drawing.Color.White;
+            stateProperties6.ForeColor = System.Drawing.Color.Empty;
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txtPesquisaUser.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtPesquisaUser.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.SystemColors.ButtonHighlight;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtPesquisaUser.OnIdleState = stateProperties8;
             this.txtPesquisaUser.PasswordChar = '\0';
             this.txtPesquisaUser.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtPesquisaUser.PlaceholderText = "Pesquisar usuário..";
@@ -692,26 +692,26 @@
             this.txtTextoP.Modified = false;
             this.txtTextoP.Multiline = true;
             this.txtTextoP.Name = "txtTextoP";
-            stateProperties21.BorderColor = System.Drawing.Color.Teal;
-            stateProperties21.FillColor = System.Drawing.Color.Empty;
-            stateProperties21.ForeColor = System.Drawing.Color.Empty;
-            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtTextoP.OnActiveState = stateProperties21;
-            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
-            stateProperties22.FillColor = System.Drawing.Color.White;
-            stateProperties22.ForeColor = System.Drawing.Color.Empty;
-            stateProperties22.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.txtTextoP.OnDisabledState = stateProperties22;
-            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties23.FillColor = System.Drawing.Color.Empty;
-            stateProperties23.ForeColor = System.Drawing.Color.Empty;
-            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtTextoP.OnHoverState = stateProperties23;
-            stateProperties24.BorderColor = System.Drawing.Color.Silver;
-            stateProperties24.FillColor = System.Drawing.Color.DarkSlateGray;
-            stateProperties24.ForeColor = System.Drawing.Color.White;
-            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.txtTextoP.OnIdleState = stateProperties24;
+            stateProperties9.BorderColor = System.Drawing.Color.Teal;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtTextoP.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(161)))), ((int)(((byte)(161)))), ((int)(((byte)(161)))));
+            stateProperties10.FillColor = System.Drawing.Color.White;
+            stateProperties10.ForeColor = System.Drawing.Color.Empty;
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.txtTextoP.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtTextoP.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.Silver;
+            stateProperties12.FillColor = System.Drawing.Color.DarkSlateGray;
+            stateProperties12.ForeColor = System.Drawing.Color.White;
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.txtTextoP.OnIdleState = stateProperties12;
             this.txtTextoP.PasswordChar = '\0';
             this.txtTextoP.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.txtTextoP.PlaceholderText = "Escreva aqui a sua situação...";
@@ -743,7 +743,7 @@
             this.shapeContainer3.Name = "shapeContainer3";
             this.shapeContainer3.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.btnTopo});
-            this.shapeContainer3.Size = new System.Drawing.Size(1362, 689);
+            this.shapeContainer3.Size = new System.Drawing.Size(1354, 681);
             this.shapeContainer3.TabIndex = 114;
             this.shapeContainer3.TabStop = false;
             this.bunifuToolTip1.SetToolTip(this.shapeContainer3, "");
@@ -780,11 +780,82 @@
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(1362, 52);
+            this.pnlHeader.Size = new System.Drawing.Size(1354, 52);
             this.pnlHeader.TabIndex = 102;
             this.bunifuToolTip1.SetToolTip(this.pnlHeader, "");
             this.bunifuToolTip1.SetToolTipIcon(this.pnlHeader, null);
             this.bunifuToolTip1.SetToolTipTitle(this.pnlHeader, "");
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.bunifuTransition1.SetDecoration(this.menuStrip1, BunifuAnimatorNS.DecorationType.None);
+            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
+            this.menuStrip1.Font = new System.Drawing.Font("Century Gothic", 12F);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.perfilToolStripMenuItem,
+            this.sobreToolStripMenuItem,
+            this.terminarToolStripMenuItem});
+            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
+            this.menuStrip1.Location = new System.Drawing.Point(481, 16);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(150, 81);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            this.bunifuToolTip1.SetToolTip(this.menuStrip1, "");
+            this.bunifuToolTip1.SetToolTipIcon(this.menuStrip1, null);
+            this.bunifuToolTip1.SetToolTipTitle(this.menuStrip1, "");
+            this.menuStrip1.Visible = false;
+            // 
+            // perfilToolStripMenuItem
+            // 
+            this.perfilToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
+            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
+            this.perfilToolStripMenuItem.Text = "Perfil";
+            // 
+            // sobreToolStripMenuItem
+            // 
+            this.sobreToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.sobreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.desenvolvedorToolStripMenuItem,
+            this.aplicativoToolStripMenuItem,
+            this.ajudaToolStripMenuItem});
+            this.sobreToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
+            this.sobreToolStripMenuItem.Text = "Sobre";
+            // 
+            // desenvolvedorToolStripMenuItem
+            // 
+            this.desenvolvedorToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.desenvolvedorToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.desenvolvedorToolStripMenuItem.Name = "desenvolvedorToolStripMenuItem";
+            this.desenvolvedorToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.desenvolvedorToolStripMenuItem.Text = "Desenvolvedor";
+            // 
+            // aplicativoToolStripMenuItem
+            // 
+            this.aplicativoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.aplicativoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.aplicativoToolStripMenuItem.Name = "aplicativoToolStripMenuItem";
+            this.aplicativoToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.aplicativoToolStripMenuItem.Text = "Aplicativo";
+            // 
+            // ajudaToolStripMenuItem
+            // 
+            this.ajudaToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
+            this.ajudaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
+            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
+            this.ajudaToolStripMenuItem.Text = "Ajuda";
+            // 
+            // terminarToolStripMenuItem
+            // 
+            this.terminarToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.terminarToolStripMenuItem.Name = "terminarToolStripMenuItem";
+            this.terminarToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
+            this.terminarToolStripMenuItem.Text = "Terminar Sessão";
             // 
             // label4
             // 
@@ -822,6 +893,7 @@
             this.bunifuToolTip1.SetToolTip(this.label7, "");
             this.bunifuToolTip1.SetToolTipIcon(this.label7, null);
             this.bunifuToolTip1.SetToolTipTitle(this.label7, "");
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             this.label7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.lblHome_MouseDown);
             this.label7.MouseLeave += new System.EventHandler(this.lblHome_MouseLeave);
             this.label7.MouseHover += new System.EventHandler(this.lblHome_MouseHover);
@@ -915,7 +987,7 @@
             this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bunifuTransition1.SetDecoration(this.pictureBox3, BunifuAnimatorNS.DecorationType.None);
-            this.pictureBox3.Location = new System.Drawing.Point(12, 10);
+            this.pictureBox3.Location = new System.Drawing.Point(14, 11);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(24, 30);
             this.pictureBox3.TabIndex = 99;
@@ -932,7 +1004,7 @@
             this.bunifuTransition1.SetDecoration(this.label2, BunifuAnimatorNS.DecorationType.None);
             this.label2.Font = new System.Drawing.Font("Chiller", 19F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(38, 11);
+            this.label2.Location = new System.Drawing.Point(40, 12);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 30);
@@ -947,22 +1019,22 @@
             // 
             this.bunifuTransition1.AnimationType = BunifuAnimatorNS.AnimationType.VertSlide;
             this.bunifuTransition1.Cursor = null;
-            animation2.AnimateOnlyDifferences = true;
-            animation2.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.BlindCoeff")));
-            animation2.LeafCoeff = 0F;
-            animation2.MaxTime = 1F;
-            animation2.MinTime = 0F;
-            animation2.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicCoeff")));
-            animation2.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation2.MosaicShift")));
-            animation2.MosaicSize = 0;
-            animation2.Padding = new System.Windows.Forms.Padding(0);
-            animation2.RotateCoeff = 0F;
-            animation2.RotateLimit = 0F;
-            animation2.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.ScaleCoeff")));
-            animation2.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation2.SlideCoeff")));
-            animation2.TimeCoeff = 0F;
-            animation2.TransparencyCoeff = 0F;
-            this.bunifuTransition1.DefaultAnimation = animation2;
+            animation1.AnimateOnlyDifferences = true;
+            animation1.BlindCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.BlindCoeff")));
+            animation1.LeafCoeff = 0F;
+            animation1.MaxTime = 1F;
+            animation1.MinTime = 0F;
+            animation1.MosaicCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicCoeff")));
+            animation1.MosaicShift = ((System.Drawing.PointF)(resources.GetObject("animation1.MosaicShift")));
+            animation1.MosaicSize = 0;
+            animation1.Padding = new System.Windows.Forms.Padding(0);
+            animation1.RotateCoeff = 0F;
+            animation1.RotateLimit = 0F;
+            animation1.ScaleCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.ScaleCoeff")));
+            animation1.SlideCoeff = ((System.Drawing.PointF)(resources.GetObject("animation1.SlideCoeff")));
+            animation1.TimeCoeff = 0F;
+            animation1.TransparencyCoeff = 0F;
+            this.bunifuTransition1.DefaultAnimation = animation1;
             // 
             // bunifuElipse1
             // 
@@ -1013,84 +1085,13 @@
             // 
             this.timer1.Interval = 1000;
             // 
-            // menuStrip1
-            // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.bunifuTransition1.SetDecoration(this.menuStrip1, BunifuAnimatorNS.DecorationType.None);
-            this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-            this.menuStrip1.Font = new System.Drawing.Font("Century Gothic", 12F);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.perfilToolStripMenuItem,
-            this.sobreToolStripMenuItem,
-            this.terminarToolStripMenuItem});
-            this.menuStrip1.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow;
-            this.menuStrip1.Location = new System.Drawing.Point(481, 16);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(150, 100);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
-            this.bunifuToolTip1.SetToolTip(this.menuStrip1, "");
-            this.bunifuToolTip1.SetToolTipIcon(this.menuStrip1, null);
-            this.bunifuToolTip1.SetToolTipTitle(this.menuStrip1, "");
-            this.menuStrip1.Visible = false;
-            // 
-            // sobreToolStripMenuItem
-            // 
-            this.sobreToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.sobreToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.desenvolvedorToolStripMenuItem,
-            this.aplicativoToolStripMenuItem,
-            this.ajudaToolStripMenuItem});
-            this.sobreToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
-            this.sobreToolStripMenuItem.Text = "Sobre";
-            // 
-            // terminarToolStripMenuItem
-            // 
-            this.terminarToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.terminarToolStripMenuItem.Name = "terminarToolStripMenuItem";
-            this.terminarToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
-            this.terminarToolStripMenuItem.Text = "Terminar Sessão";
-            // 
-            // perfilToolStripMenuItem
-            // 
-            this.perfilToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
-            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(143, 25);
-            this.perfilToolStripMenuItem.Text = "Perfil";
-            // 
-            // desenvolvedorToolStripMenuItem
-            // 
-            this.desenvolvedorToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.desenvolvedorToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.desenvolvedorToolStripMenuItem.Name = "desenvolvedorToolStripMenuItem";
-            this.desenvolvedorToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.desenvolvedorToolStripMenuItem.Text = "Desenvolvedor";
-            // 
-            // aplicativoToolStripMenuItem
-            // 
-            this.aplicativoToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.aplicativoToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.aplicativoToolStripMenuItem.Name = "aplicativoToolStripMenuItem";
-            this.aplicativoToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.aplicativoToolStripMenuItem.Text = "Aplicativo";
-            // 
-            // ajudaToolStripMenuItem
-            // 
-            this.ajudaToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(62)))), ((int)(((byte)(64)))));
-            this.ajudaToolStripMenuItem.ForeColor = System.Drawing.Color.White;
-            this.ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
-            this.ajudaToolStripMenuItem.Size = new System.Drawing.Size(197, 26);
-            this.ajudaToolStripMenuItem.Text = "Ajuda";
-            // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            this.ClientSize = new System.Drawing.Size(1362, 741);
+            this.ClientSize = new System.Drawing.Size(1354, 733);
             this.Controls.Add(this.panel1);
             this.bunifuTransition1.SetDecoration(this, BunifuAnimatorNS.DecorationType.None);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1117,9 +1118,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.btnInserirImg)).EndInit();
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
